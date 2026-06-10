@@ -1,0 +1,8 @@
+-- AlterTable
+ALTER TABLE "categories" ALTER COLUMN "created_at" SET DEFAULT CURRENT_TIMESTAMP;
+
+-- AlterTable
+ALTER TABLE "events" ALTER COLUMN "created_at" SET DEFAULT CURRENT_TIMESTAMP;
+
+-- AlterTable
+ALTER TABLE "product" ALTER COLUMN "created_at" SET DEFAULT CURRENT_TIMESTAMP;
